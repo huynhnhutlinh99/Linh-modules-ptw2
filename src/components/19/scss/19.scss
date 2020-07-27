@@ -1,0 +1,18 @@
+.type-19{
+    background-color: #f3f3f6;
+    
+    .nl-container{
+        height: 100%;
+        .nl-row{
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 0;
+            .title{
+                font-size: 30px;
+                margin-bottom: 30px;
+                font-weight: 700;
+            }
+        }
+    }
+}

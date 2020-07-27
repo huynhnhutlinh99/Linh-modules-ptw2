@@ -1,0 +1,25 @@
+$color_grey: #757575;
+$color_grey_24: #242424;
+.type-68{
+    .nl-content{
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        .nl-title{
+            display: inline-block;
+            font-size: 30px;
+            position: relative;
+            font-weight: 700;
+            max-width: 680px;
+            color: $color_grey_24;
+        }
+        .nl-decs {
+            max-width: 700px;
+            margin: 0 auto;
+            margin-top: 0;
+            line-height: 28px;
+            color: $color_grey;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,104 @@
+$color_grey_75: #757575;
+$color_btn_theme: #3EAAFD;
+$color_grey_24: #242424;
+.type-64{
+    a{
+        text-decoration: none;
+    }
+    .nl-content{
+        text-align: right;
+        padding: 30px 0;
+        .nl-title{
+            position: relative;
+            font-size: 28px;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            margin-top: 0;
+            line-height: 36px;
+            letter-spacing: 0;
+            font-weight: 500;
+            &:after{
+                position: absolute;
+                content: "";
+                width: 50px;
+                height: 2px;
+                background: #3EAAFD;
+                left: auto;
+                right: 0;
+                bottom: 0;
+                z-index: 1;
+            }
+        }
+        .nl-desc{
+            font-size: 16px;
+            line-height: 30px;
+            color: $color_grey_75;
+            margin-bottom: 10px;
+        }
+        .nl-btn-theme{
+            position: relative;
+            display: inline-block;
+            line-height: 42px;
+            background-color: $color_btn_theme;
+            background: #3EAAFD;
+            color: #fff;
+            overflow: hidden;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 0 36px 0 26px;
+            z-index: 1;
+            border-radius: 4px;
+            border: none;
+            font-family: "Poppins",sans-serif;
+            margin-top: 20px;
+           svg{
+               position: absolute;
+               top: 0;
+               bottom: 0;
+               right: 14px;
+               font-weight: 900;
+               margin: auto;
+           }
+        }
+        .nl-link-video{
+            margin-top: 12px;
+            text-align: right;
+            a{
+                color: $color_grey_24;
+                padding-right: 38px;
+                position: relative;
+                font-size: 22px;
+
+                &:hover{
+                    color:  $color_btn_theme;
+                    .nl-pu-play{
+                        border: 1px solid $color_btn_theme;
+                    }
+                }
+                span{
+                    position: relative;
+                    top: -2px;
+                }
+                .nl-pu-play{
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    margin: auto;
+                    z-index: 1;
+                    width: 30px;
+                    border: 1px solid $color_grey_75;
+                    line-height: 28px;
+                    font-size: 10px;
+                    text-align: center;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    .nl-image-part{
+        img{
+            width: 100%;
+        }
+    }
+}

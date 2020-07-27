@@ -1,0 +1,27 @@
+.type-78{
+    border: 1px solid #dee2e6;
+    .nav-tabs{
+        .nl-tab{
+            color: #242424;
+            flex: 0 0 33.333%;
+            text-align: center;
+            border: 0;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 500;
+            margin: 0;
+            padding: 20px;
+            line-height: 22px;
+            outline: none;
+            &.active{
+                border:0;
+                color: #3eaafd;
+            }
+        }
+    }
+    .tab-content{
+        padding: 30px;
+        color: #757575;
+        font-size: 14px;
+    }
+}
